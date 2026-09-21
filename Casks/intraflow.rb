@@ -1,9 +1,9 @@
 cask "intraflow" do
-  version "0.1.1"
+  version "0.1.3"
   # Replace this with the real checksum after the first tagged release:
   #   shasum -a 256 intraflow-<version>-macos-universal.zip
   # A wrong value here blocks the install (which is the safe failure mode).
-  sha256 "d6742132017da381447692d74eb0e3287b7a455e6756e51a8f3c587e553fccec"
+  sha256 "2356d4b9622280e78e704dbf33e99165a84e1680aef0d6b26a8ec993c9a5b668"
 
   url "https://github.com/dev-xz/intraflow/releases/download/v#{version}/intraflow-#{version}-macos-universal.zip"
 
