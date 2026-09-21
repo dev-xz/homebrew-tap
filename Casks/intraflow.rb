@@ -5,8 +5,7 @@ cask "intraflow" do
   # A wrong value here blocks the install (which is the safe failure mode).
   sha256 "REPLACE_WITH_SHA256_AFTER_FIRST_RELEASE"
 
-  url "https://github.com/dev-xz/intraflow/releases/download/v#{version}/intraflow-#{version}-macos-universal.zip",
-      verified: "github.com/dev-xz/intraflow/"
+  url "https://github.com/dev-xz/intraflow/releases/download/v#{version}/intraflow-#{version}-macos-universal.zip"
 
   name "IntraFlow"
   desc "Redirect public tunnel domains to internal LAN addresses via hosts hijack"
